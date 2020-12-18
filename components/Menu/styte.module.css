@@ -1,0 +1,25 @@
+.menu {
+  background-color: #222;
+  margin: 0;
+  padding: 20px 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.menu ul li {
+  text-transform: uppercase;
+  margin-right: 10px;
+  list-style: none;
+}
+.menu ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.menu a:hover {
+  color: #ccc;
+}
+.menu ul {
+  display: flex;
+  justify-content: space-around;
+}

@@ -1,0 +1,26 @@
+/*
+CSS for the CS142 project #4 Problem #2 states component
+
+Since CSS uses a global name space for classes we should use names starting with
+cs142-states- here.
+*/
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+.states {
+  font-size: 20px;
+  border-bottom: 1px solid #d0d0d0;
+  padding: 5px 20px;
+}
+.prob2-title {
+  text-align: center;
+  background-color: #d0d0d0;
+  padding: 10px 20px;
+  margin-bottom: 20px;
+  font-size: 26px;
+  color: #222;
+}
